@@ -1,0 +1,391 @@
+.header_area {
+    position: relative;
+    width: 240px;
+    background-image: url(../img/patran.png);
+    height: 70px;
+}
+.header_area h1 {
+    font-family: Revere;
+}
+
+.header a{
+    text-decoration: none;
+    color: #666;
+}
+span,i{
+    text-align: center;
+    color: rgb(210, 152, 7);
+}
+
+
+/*end of header_area*/
+
+.nav_area{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nav i.fa.fa-angle-double-right {
+    position: absolute;
+    top: 2px;
+    right: -14px;
+    font-size: 15px;
+    color:rgb(132, 132, 132);
+} 
+.nav{
+    margin-top:7px;
+}
+
+.nav ul li{
+    float: left;
+    margin-right: 44px;
+    text-decoration: none;
+}
+.nav ul li a{
+    color: rgb(132, 132, 132);
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.nav ul li a{
+    position: relative;
+
+}
+.nav .fa .fa-angle-double-right{
+    position: absolute;
+}
+.searce{
+    margin-top:7px;
+    margin-bottom: 7px;
+    position: relative;
+}
+i.fa.fa-search {
+    right: 16px;
+    position: absolute;
+    bottom: 13px;
+    color: rgb(132, 132, 132);
+}
+input[type="search"]{
+    width: 259px;
+    padding-left:15px;
+    outline: none;
+    height: 42px;
+    border: none;
+    background-image: url(../img/searce_bg.png);
+}
+.nav_border_bottom{
+  position: relative;
+    bottom: -7px;  
+}
+.nav_border_bottom img{
+  position: absolute;
+  bottom: -50px;
+  
+}
+/*end of nav_area */
+.slider{
+    position: relative;
+}
+
+.slider img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.slider_control{
+    position: absolute;
+    bottom: 240px;
+}
+.slider_control2 {
+    position: absolute;
+    bottom: 240px;
+    right: 14px;
+}
+
+.slider_control_bottom {
+    position: absolute;
+    bottom: -7px;
+    left: 39%;
+}
+.box{
+    height: 8px;
+    position: absolute;
+    border-radius: 50px;
+    width: 9px;
+    background-color: rgb(132, 132, 132);
+    bottom: 10px;
+
+}
+.box:hover{
+    background-color: #ff9933;
+}
+.slider_control_bottom > img {
+    position: relative;
+    bottom: -22px;
+    left: 40px;
+}
+.slider_control_bottom ul {
+    list-style: none;
+    margin-left: 29px;
+}
+.slider_control_bottom ul li {
+    float: left;
+}
+.slider_control_bottom ul li a {
+    text-decoration: none;
+    padding-right: 3px;
+    margin-right: 16px;
+}
+
+.slider_text{
+    position: absolute;
+    background-color:rgba(238, 238, 238, 0.71);
+    height: 95px;
+    bottom: 0px;
+    padding: 20px 20px 30px 20px;
+}
+
+.slider_text p{
+    font-family:Nuptial Script;
+}
+.shadow {
+        z-index: -111;
+    bottom: -11px;
+    right: 130px;
+    position: absolute;
+}
+/*end of slider_area*/
+
+.welcome_area {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #ECECEC;
+    border-radius: 7px;
+    font-family: Revere;
+    -webkit-box-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    padding: 10px;
+}
+.welcome_area > p {
+    padding-top: 10px;
+        text-align: center;
+        line-height: 32px;
+        font-size: 21px;
+}
+/*end of welcome_area*/
+.resent_work {
+position: relative;
+padding: 0px;
+}
+.resent_work img{
+width: 100%;
+}
+
+.work_hover {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    top: 0px;
+    background:rgba(39, 34, 34, 0.61);
+    -webkit-transition-duration:2s;
+    transition-duration: 2s;
+     -webkit-transform:scale(1) ;
+    -ms-transform:scale(1);
+    transform:scale(1);
+    -webkit-transition:1s;
+    transition:1s;
+}
+
+
+
+.work_hover i.fa.fa-search {
+    font-size: 34px;
+    right: 16px;
+    position: absolute;
+    bottom: 94px;
+    color: rgb(132, 132, 132);
+    right: 139px;
+}
+.resent_work:hover .work_hover{
+      -webkit-transform:scale(0) ;
+    -ms-transform:scale(0);
+    transform:scale(0);
+}
+.work_hover i.fa.fa-search:hover {
+color: blue;
+}
+/*end of resent_work */
+
+/*...............*/
+
+.br {
+    padding: 40px 0px;
+    width:100%;
+}
+.br img{
+    height:2px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*.................*/
+.more_about_top_bar{
+    position: relative;
+    padding: 81px 0 26px 0;
+
+}
+.more_about_top_bar img{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+}
+.more_about_area {
+    margin-top: 50px;  
+}
+
+/*.more_about_area i{
+    color:ff9933;
+}*/
+.about h1,.recent_blog h2 {
+    padding-bottom: 20px;
+}
+
+.about{
+    padding-bottom: 150px;
+}
+.about > p {
+    line-height: 22px;
+}
+
+.read_more {
+    position: relative;
+    right: 18px;
+    bottom: -61px;
+}
+.read_more >p{
+     background-image: url(../img/redmore.png);
+    position: absolute;
+    right: 70px;
+    top: 45px;
+    padding: 9px 46px;
+}
+i.fa.fa-angle-double-right {
+    position: absolute;
+    top: 11px;
+    right: 31px;
+    font-size: 15px;
+    color: rgb(132, 132, 132);
+}
+.read_more_right {
+    position: relative;
+    right: 41px;
+    bottom: 7px;
+}
+.read_more_right >p{
+    background-image: url(../img/redmore.png);
+    position: absolute;
+    right: 70px;
+    top: 8px;
+    padding: 9px 46px;
+}
+/*end of about */
+
+.post1{
+    margin-bottom:46px;
+}
+.post1 p{
+    line-height: 22px;
+}
+.post1 img {
+    float: left;
+    padding-right: 12px;
+    padding-bottom: 5px;
+
+}
+/*end of more_about_area */
+
+.main_information_area {
+    position: relative;
+    margin-top: 67px;
+    padding: 35px 0px ;
+    background-image: url(../img/footerbg.png);
+}
+.information_area {
+    padding: 40px 0px;
+    position: relative;
+}
+.main_information_area img{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 0px;
+}
+.social {
+
+}
+.socal_ico {
+    margin-top: 100px;
+}
+.socal_ico i {
+    border: 2px solid;
+    padding: 7px 5px;
+    border-radius: 21px;
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    background-color:#717171;
+    text-align: center;
+}
+.socal_ico i:hover{
+    background-color: #ff9933;
+    cursor: pointer;
+}
+
+
+.information_area h2{
+    padding-bottom:30px;
+}
+.information {
+    float: left;
+}
+
+.list1{
+   float: left;
+   padding-right: 50px;
+}
+.list1 ul li{
+    line-height: 35px;
+}
+.list1 ul li a{
+    text-decoration: none;
+    color: #6D6D6A;
+}
+/*end information_area */
+
+
+
+.footer_area p {
+    float: right;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/*end of footer_area*/
+
+
+/*.bob{
+    position: relative;
+width: 30px;
+height: 30px;
+background-color: red;
+}
+.bob1{
+    display: none;
+width: 30px;
+position:auto;
+height: 30px;
+background-color: blue;
+}
+.bob:hover .bob1{
+display: block;
+}*/
